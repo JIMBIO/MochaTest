@@ -3,5 +3,5 @@ module.exports = function (...rest) {
     for (let n of rest) {
         sum += n;
     }
-    return sum + 1;
+    return sum;
 };
